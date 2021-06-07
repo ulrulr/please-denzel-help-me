@@ -55,12 +55,17 @@ debaters.forEach(element => console.log(element.toUpperCase()))
 const directors = ['spikelee', 'ridleyscott', 'zemeckis'];
 
 // 1. add "tonyscott" value to the end of `directors` array
+directors.push('tonyscott')
 
 // 2. remove "spikelee" value and store it in a variable called firstDirector
+var firstDirector = directors.splice(0,1)
 
 // 3. add "himself" value to the start of `directors` array
+directors.unshift('himself')
 
 // 4. remove "ridleyscott" value from the array and store it in a variable called secondDirector
+
+var secondDirector = directors.splice(1,1)
 
 // 5. let 'zemeckis' in the array but put a copy of it on a variable called thirdDirector
 
