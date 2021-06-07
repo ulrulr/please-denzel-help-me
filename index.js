@@ -2,7 +2,7 @@
 var denzel = "please denzel, help me";
 // Q2. Use the variable `actor` to create a new variable called `inspirational` that is assigned the string "Is Denzel Washington an inspirational actor?"
 const actor = 'Denzel Washington';
-
+const inspirational = "Is "+ actor + " an inspirational actor?"
 // Q3  Create an object called `family` and give it the following properties:
 // family has been `married` on "1983" (Number)
 // family is not `presidentOfTheUnitedStates` (boolean)
