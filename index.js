@@ -21,6 +21,8 @@ const stage = {
   'year': '2010'
 };
 
+stage.name = 'A Raisin in the Sun'
+stage.year ='2014'
 
 
 
