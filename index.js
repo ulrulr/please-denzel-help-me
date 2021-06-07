@@ -30,6 +30,7 @@ stage.year ='2014'
 const awards = {
   'movie': 'glory'
 };
+awards['movie'] = 'Training Day'
 
 // Q6. Create an object called "earlywork"
 // The key should be the movie name and the value the release year
