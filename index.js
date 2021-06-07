@@ -1,5 +1,5 @@
 // Q1. Create a variable called `denzel` - that can't be redeclared - and assign it the string 'please denzel, help me'
-
+var denzel = "please denzel, help me";
 // Q2. Use the variable `actor` to create a new variable called `inspirational` that is assigned the string "Is Denzel Washington an inspirational actor?"
 const actor = 'Denzel Washington';
 
@@ -7,6 +7,7 @@ const actor = 'Denzel Washington';
 // family has been `married` on "1983" (Number)
 // family is not `presidentOfTheUnitedStates` (boolean)
 // family has `children` called "John David", "Katia", "Olivia" and "Malcolm" (array of strings)
+
 
 // Q4. Change
 // * the `name` stage to "A Raisin in the Sun"
@@ -16,6 +17,9 @@ const stage = {
   'name': 'Fences',
   'year': '2010'
 };
+
+
+
 
 // Q5. Change the `movie` "glory" to "Training Day" using square bracket notation
 const awards = {
